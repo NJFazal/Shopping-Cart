@@ -173,7 +173,6 @@ const products = [
       const reducer = (accum, current) => accum + current;
       let newTotal = costs.reduce(reducer, 0);
       console.log(`total updated to ${newTotal}`);
-      //cart.map((item, index) => deleteCartItem(index));
       return newTotal;
     };
     // TODO: implement the restockProducts function
